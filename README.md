@@ -73,4 +73,4 @@ namespacebug.UrlMappings
 Grails application running at http://localhost:8080 in environment: production
 ```
 
-## Notice above the position of UserController changes in subsequent jar running with no code changes
+## Notice above the position of UserController changes in subsequent jar running with no code changes vs bootRun is consistant
