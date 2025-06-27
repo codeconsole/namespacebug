@@ -71,7 +71,7 @@
                 <ul>
                     <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
                         <li class="controller">
-                            <g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link>
+                            <g:link target="_blank" namespace="${c.namespace}" controller="${c.logicalPropertyName}">${c.name}<g:if test="${c.namespace}"> (${c.namespace})</g:if></g:link>
                         </li>
                     </g:each>
                 </ul>
